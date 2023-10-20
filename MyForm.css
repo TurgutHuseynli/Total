@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.screen{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background: blue;
+    border: 2px solid red;
+}
+input, .privacy{
+    margin: 5px 0;
+}
+span{
+    color: white;
+}
+button{
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+}
+a{
+    color: red;
+}

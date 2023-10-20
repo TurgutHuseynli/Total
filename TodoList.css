@@ -1,0 +1,78 @@
+.add-todo{
+    background: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.todos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.todo{
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+.todo-name{
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+}
+.todo-info{
+    text-align: center;
+    margin: 5px 0;
+    width: 100%;
+}
+.edit, .delete, .add, .close{
+    width: 100px;
+    height: 35px;
+}
+.edit, .add{
+    background: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.delete{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.actions{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.actions button{
+    margin: 0 5px;
+}
+.add-window{
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+    background: skyblue;
+    margin-top: 10px;
+}
+[placeholder]{
+    margin-top: 5px;
+}
+.close{
+    background: gray;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.enter-info{
+    padding: 15px;
+}

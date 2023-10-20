@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.screen{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background: blue;
+    border: 2px solid green;
+}
+input{
+    margin: 5px 0;
+}
+button{
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+}
+a{
+    color: green;
+}
